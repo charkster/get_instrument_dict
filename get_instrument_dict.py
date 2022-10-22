@@ -1,3 +1,5 @@
+import pyvisa
+
 def get_instrument_dict():
     # this dictionary is the IDN string as the key and the instrument address as the value
     instrument_dict = {}
